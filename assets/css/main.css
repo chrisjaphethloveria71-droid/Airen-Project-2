@@ -247,6 +247,12 @@ h6 {
   color: var(--accent-color);
 }
 
+.courses-page .header .logo h1 {
+  max-width: 290px;
+  font-size: clamp(18px, 1.65vw, 22px);
+  line-height: 1.15;
+}
+
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
@@ -256,6 +262,11 @@ h6 {
   margin: 0 0 0 30px;
   border-radius: 50px;
   transition: 0.3s;
+}
+
+.courses-page .header .btn-getstarted {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .header .btn-getstarted:hover,
